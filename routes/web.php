@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 
 Route::resource('blogs','BlogController');
+
+Route::resource('clients','ClientController');
